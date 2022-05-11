@@ -15,7 +15,8 @@
 		7EA25D73282BED8D00D2DBB3 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D72282BED8D00D2DBB3 /* ModalType.swift */; };
 		7EA25D76282BFB1C00D2DBB3 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D75282BFB1C00D2DBB3 /* FileManager+Extension.swift */; };
 		7EA25D7A282C011F00D2DBB3 /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D79282C011F00D2DBB3 /* CardError.swift */; };
-		7EED13BE2824195A0078C93B /* Card_List_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13BD2824195A0078C93B /* Card_List_2App.swift */; };
+		7EB33788282C1E2D00E2D051 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7EB33787282C1E2D00E2D051 /* README.md */; };
+		7EED13BE2824195A0078C93B /* cardlist_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13BD2824195A0078C93B /* cardlist_App.swift */; };
 		7EED13C22824195B0078C93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED13C12824195B0078C93B /* Assets.xcassets */; };
 		7EED13C52824195B0078C93B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED13C42824195B0078C93B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,8 +30,9 @@
 		7EA25D72282BED8D00D2DBB3 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
 		7EA25D75282BFB1C00D2DBB3 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
 		7EA25D79282C011F00D2DBB3 /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
+		7EB33787282C1E2D00E2D051 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7EED13BA2824195A0078C93B /* cardlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EED13BD2824195A0078C93B /* Card_List_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_List_2App.swift; sourceTree = "<group>"; };
+		7EED13BD2824195A0078C93B /* cardlist_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardlist_App.swift; sourceTree = "<group>"; };
 		7EED13C12824195B0078C93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EED13C42824195B0078C93B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		7EED13B12824195A0078C93B = {
 			isa = PBXGroup;
 			children = (
+				7EB33787282C1E2D00E2D051 /* README.md */,
 				7EED13BC2824195A0078C93B /* cardlist */,
 				7EED13BB2824195A0078C93B /* Products */,
 			);
@@ -96,7 +99,7 @@
 			children = (
 				7EA25D77282C00C100D2DBB3 /* Models */,
 				7EA25D74282BFB0A00D2DBB3 /* Extensions */,
-				7EED13BD2824195A0078C93B /* Card_List_2App.swift */,
+				7EED13BD2824195A0078C93B /* cardlist_App.swift */,
 				7EA25D5E282B0BCD00D2DBB3 /* Views */,
 				7EED13C12824195B0078C93B /* Assets.xcassets */,
 				7EED13C32824195B0078C93B /* Preview Content */,
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB33788282C1E2D00E2D051 /* README.md in Resources */,
 				7EED13C52824195B0078C93B /* Preview Assets.xcassets in Resources */,
 				7EED13C22824195B0078C93B /* Assets.xcassets in Resources */,
 			);
@@ -190,7 +194,7 @@
 				7EA25D7A282C011F00D2DBB3 /* CardError.swift in Sources */,
 				7EA25D6B282B2F7C00D2DBB3 /* CardFormViewModel.swift in Sources */,
 				7EA25D6D282B32B300D2DBB3 /* CardFormView.swift in Sources */,
-				7EED13BE2824195A0078C93B /* Card_List_2App.swift in Sources */,
+				7EED13BE2824195A0078C93B /* cardlist_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
