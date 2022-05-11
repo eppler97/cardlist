@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA25D62282B25D200D2DBB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D61282B25D200D2DBB3 /* ContentView.swift */; };
+		7EA25D66282B286300D2DBB3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D65282B286300D2DBB3 /* Card.swift */; };
+		7EA25D68282B28BC00D2DBB3 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D67282B28BC00D2DBB3 /* DataStore.swift */; };
+		7EA25D6B282B2F7C00D2DBB3 /* CardFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D6A282B2F7C00D2DBB3 /* CardFormViewModel.swift */; };
+		7EA25D6D282B32B300D2DBB3 /* CardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D6C282B32B300D2DBB3 /* CardFormView.swift */; };
+		7EA25D73282BED8D00D2DBB3 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D72282BED8D00D2DBB3 /* ModalType.swift */; };
+		7EA25D76282BFB1C00D2DBB3 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D75282BFB1C00D2DBB3 /* FileManager+Extension.swift */; };
+		7EA25D7A282C011F00D2DBB3 /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA25D79282C011F00D2DBB3 /* CardError.swift */; };
 		7EED13BE2824195A0078C93B /* Card_List_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13BD2824195A0078C93B /* Card_List_2App.swift */; };
-		7EED13C02824195A0078C93B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13BF2824195A0078C93B /* ContentView.swift */; };
 		7EED13C22824195B0078C93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED13C12824195B0078C93B /* Assets.xcassets */; };
 		7EED13C52824195B0078C93B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED13C42824195B0078C93B /* Preview Assets.xcassets */; };
-		7EED13C72824195B0078C93B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13C62824195B0078C93B /* Persistence.swift */; };
-		7EED13CA2824195B0078C93B /* Card_List_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EED13C82824195B0078C93B /* Card_List_2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7EED13BA2824195A0078C93B /* Card List 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card List 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA25D61282B25D200D2DBB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EA25D65282B286300D2DBB3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7EA25D67282B28BC00D2DBB3 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		7EA25D6A282B2F7C00D2DBB3 /* CardFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFormViewModel.swift; sourceTree = "<group>"; };
+		7EA25D6C282B32B300D2DBB3 /* CardFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFormView.swift; sourceTree = "<group>"; };
+		7EA25D72282BED8D00D2DBB3 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		7EA25D75282BFB1C00D2DBB3 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		7EA25D79282C011F00D2DBB3 /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
+		7EED13BA2824195A0078C93B /* CardList2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardList2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EED13BD2824195A0078C93B /* Card_List_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_List_2App.swift; sourceTree = "<group>"; };
-		7EED13BF2824195A0078C93B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EED13C12824195B0078C93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EED13C42824195B0078C93B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7EED13C62824195B0078C93B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		7EED13C92824195B0078C93B /* Card_List_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_List_2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EA25D5E282B0BCD00D2DBB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EA25D67282B28BC00D2DBB3 /* DataStore.swift */,
+				7EA25D61282B25D200D2DBB3 /* ContentView.swift */,
+				7EA25D6A282B2F7C00D2DBB3 /* CardFormViewModel.swift */,
+				7EA25D6C282B32B300D2DBB3 /* CardFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7EA25D74282BFB0A00D2DBB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7EA25D75282BFB1C00D2DBB3 /* FileManager+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7EA25D77282C00C100D2DBB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EA25D72282BED8D00D2DBB3 /* ModalType.swift */,
+				7EA25D65282B286300D2DBB3 /* Card.swift */,
+				7EA25D79282C011F00D2DBB3 /* CardError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7EED13B12824195A0078C93B = {
 			isa = PBXGroup;
 			children = (
@@ -47,7 +86,7 @@
 		7EED13BB2824195A0078C93B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EED13BA2824195A0078C93B /* Card List 2.app */,
+				7EED13BA2824195A0078C93B /* CardList2.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +94,11 @@
 		7EED13BC2824195A0078C93B /* Card List 2 */ = {
 			isa = PBXGroup;
 			children = (
+				7EA25D77282C00C100D2DBB3 /* Models */,
+				7EA25D74282BFB0A00D2DBB3 /* Extensions */,
 				7EED13BD2824195A0078C93B /* Card_List_2App.swift */,
-				7EED13BF2824195A0078C93B /* ContentView.swift */,
+				7EA25D5E282B0BCD00D2DBB3 /* Views */,
 				7EED13C12824195B0078C93B /* Assets.xcassets */,
-				7EED13C62824195B0078C93B /* Persistence.swift */,
-				7EED13C82824195B0078C93B /* Card_List_2.xcdatamodeld */,
 				7EED13C32824195B0078C93B /* Preview Content */,
 			);
 			path = "Card List 2";
@@ -76,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EED13B92824195A0078C93B /* Card List 2 */ = {
+		7EED13B92824195A0078C93B /* CardList2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EED13CD2824195B0078C93B /* Build configuration list for PBXNativeTarget "Card List 2" */;
+			buildConfigurationList = 7EED13CD2824195B0078C93B /* Build configuration list for PBXNativeTarget "CardList2.0" */;
 			buildPhases = (
 				7EED13B62824195A0078C93B /* Sources */,
 				7EED13B72824195A0078C93B /* Frameworks */,
@@ -88,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = "Card List 2";
+			name = CardList2.0;
 			productName = "Card List 2";
-			productReference = 7EED13BA2824195A0078C93B /* Card List 2.app */;
+			productReference = 7EED13BA2824195A0078C93B /* CardList2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EED13B52824195A0078C93B /* Build configuration list for PBXProject "Card List 2" */;
+			buildConfigurationList = 7EED13B52824195A0078C93B /* Build configuration list for PBXProject "CardList2.0" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EED13B92824195A0078C93B /* Card List 2 */,
+				7EED13B92824195A0078C93B /* CardList2.0 */,
 			);
 		};
 /* End PBXProject section */
@@ -143,9 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EED13C72824195B0078C93B /* Persistence.swift in Sources */,
-				7EED13C02824195A0078C93B /* ContentView.swift in Sources */,
-				7EED13CA2824195B0078C93B /* Card_List_2.xcdatamodeld in Sources */,
+				7EA25D73282BED8D00D2DBB3 /* ModalType.swift in Sources */,
+				7EA25D76282BFB1C00D2DBB3 /* FileManager+Extension.swift in Sources */,
+				7EA25D66282B286300D2DBB3 /* Card.swift in Sources */,
+				7EA25D68282B28BC00D2DBB3 /* DataStore.swift in Sources */,
+				7EA25D62282B25D200D2DBB3 /* ContentView.swift in Sources */,
+				7EA25D7A282C011F00D2DBB3 /* CardError.swift in Sources */,
+				7EA25D6B282B2F7C00D2DBB3 /* CardFormViewModel.swift in Sources */,
+				7EA25D6D282B32B300D2DBB3 /* CardFormView.swift in Sources */,
 				7EED13BE2824195A0078C93B /* Card_List_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EED13B52824195A0078C93B /* Build configuration list for PBXProject "Card List 2" */ = {
+		7EED13B52824195A0078C93B /* Build configuration list for PBXProject "CardList2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EED13CB2824195B0078C93B /* Debug */,
@@ -337,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EED13CD2824195B0078C93B /* Build configuration list for PBXNativeTarget "Card List 2" */ = {
+		7EED13CD2824195B0078C93B /* Build configuration list for PBXNativeTarget "CardList2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EED13CE2824195B0078C93B /* Debug */,
@@ -347,19 +391,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7EED13C82824195B0078C93B /* Card_List_2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7EED13C92824195B0078C93B /* Card_List_2.xcdatamodel */,
-			);
-			currentVersion = 7EED13C92824195B0078C93B /* Card_List_2.xcdatamodel */;
-			path = Card_List_2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7EED13B22824195A0078C93B /* Project object */;
 }
